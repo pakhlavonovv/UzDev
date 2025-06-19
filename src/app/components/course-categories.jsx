@@ -2,7 +2,6 @@ import './style.css'
 import Link from 'next/link'
 const CourseCategory = () => {
     return (
-        <div>
         <div className='container-second flex flex-col gap-2 lg:gap-4 items-center justify-center sm:flex-row'>
             <div className='rounded-lg border-[1px] sm:h-[700px] flex flex-col items-center justify-center border-[#F5613F] w-[90%] min:[1600px]:max-w-[600px] p-4'>
                 <h1 className='text-[20px] sm:text-[25px] min-[800px]:text-[30px] text-center font-bold'>Kursni 0 dan boshlab o'rganish</h1>
@@ -44,8 +43,6 @@ const CourseCategory = () => {
                 <Link className='hover:bg-gray-300 p-3 underline lg:text-[18px]' href='https://t.me/UzDev_Education'>React.js o'rganish</Link>
                 <Link className='hover:bg-gray-300 p-3 underline lg:text-[18px]' href='https://t.me/UzDev_Education'>Next.js o'rganish</Link>
             </div>
-        </div>
-            <p className='text-center mt-[50px]'>Hurmatli o'qishni xohlagan o'quvchilar sizlarni bizning <Link className='underline' href={'https://t.me/UzDev_Education'}>admin</Link> ga murojaat qilib login parolni qolga kiritishingizni so'rayman.</p>
         </div>
     )
 }

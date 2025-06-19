@@ -20,3 +20,13 @@ a{
         margin: 0 auto;
     }
 }
+.container-second{
+  width: 80%;
+  margin: 0 auto;
+}
+@media (max-width:764px) {
+    .container-second{
+        width: 99%;
+        margin: 0 auto;
+    }
+}

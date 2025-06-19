@@ -27,14 +27,14 @@ const Header = () => {
             <Link href="/" className="hover:text-gray-300">
               Asosiy sahifa
             </Link>
-            <Link href="/" className="hover:text-gray-300">
+            <Link href="/courses" className="hover:text-gray-300">
               Kurslar
             </Link>
-            <Link href="/" className="hover:text-gray-300">
+            <Link href="/contact" className="hover:text-gray-300">
               Bog'lanish
             </Link>
             <Link
-              href="/"
+              href="/category"
               className="bg-[#F5613F] px-6 py-2 rounded-md border-[1px] border-[#F5613F] transition-colors hover:bg-transparent"
             >
               Kategorya
@@ -68,14 +68,14 @@ const Header = () => {
           <Link href="/" onClick={toggleSidebar} className="hover:text-gray-300">
             Asosiy sahifa
           </Link>
-          <Link href="/" onClick={toggleSidebar} className="hover:text-gray-300">
+          <Link href="/courses" onClick={toggleSidebar} className="hover:text-gray-300">
             Kurslar
           </Link>
-          <Link href="/" onClick={toggleSidebar} className="hover:text-gray-300">
+          <Link href="/contact" onClick={toggleSidebar} className="hover:text-gray-300">
             Bog'lanish
           </Link>
           <Link
-            href="/"
+            href="/category"
             onClick={toggleSidebar}
             className="hover:text-gray-300"
           >

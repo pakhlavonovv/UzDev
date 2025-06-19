@@ -37,7 +37,7 @@ const Why = () => {
             </div>
         </div>
         <div className='mt-10'>
-                 <h1 className='font-bold text-[30px]'>Faqat Kerakli kurslarda o'qimoqchi bo'lganlar uchun kurs ma'lumoti</h1>
+                 <h1 className='font-bold text-[30px]'>Kerakli darslarni o'qimoqchi bo'lganlar uchun kurs ma'lumoti</h1>
                      <div className='grid grid-cols-1 gap-3 mt-5 md:grid-cols-2'>
             <div className='w-100% bg-[#F3F8FF] flex flex-col gap-1 px-6 rounded-xl p-4'>
                 <Image src='/images/video.png' alt='Conversation image' width={30} height={30}/>

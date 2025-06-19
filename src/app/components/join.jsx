@@ -13,7 +13,7 @@ const Join = () => {
             <div className="w-[80%] flex flex-col items-center justify-center gap-2">
                 <p className='text-center sm:text-[18px] md:text-[20px] font-bold sm:font-normal'>Hech qanday oldingi bilimlarsiz 8 oyda frontend texnologiyalarini mukammal o‘zlashtiring va raqamli olamda yorqin iz qoldiring.</p>
                   <Link
-              href="/course-category"
+              href="/courses"
               className="bg-[#F5613F] px-6 py-2 rounded-md border-[1px] border-[#F5613F] transition-colors hover:bg-transparent"
             >
               O'qishni xohlayman

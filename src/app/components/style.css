@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  list-style-type: none;
+  text-decoration: none;
+}
+a{
+  color: inherit;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+@media (max-width:764px) {
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
+}

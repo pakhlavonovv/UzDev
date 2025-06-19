@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "UzDev - Frontend yo‘nalishida o‘zbekcha onlayn ta'lim",
-  description: "Frontend yo‘nalishini 6 oy ichida biz bilan o'rganing!",
+  description: "Frontend yo‘nalishini 8 oy ichida biz bilan o'rganing!",
 };
 
 export default function RootLayout({ children }) {

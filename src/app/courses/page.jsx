@@ -9,10 +9,10 @@ const Page = () => {
             <div className="mb-9">
                 <Header />
             </div>
+            <div className="flex flex-col gap-2 md:flex-row">
             <div className="mb-[100px]">
             <div className="container flex items-center justify-between gap-2">
                 <Image src={'/images/frontend.png'} className="rounded-xl" alt="Frontend rasmi" width={600} height={600} />
-                <Image src={'/images/frontend-logo.png'} className="rounded-xl hidden lg:flex" alt="Frontend rasmi" width={300} height={300} />
             </div>
             <div className="container flex flex-col gap-2">
                 <h1 className="text-[25px] font-bold">0 dan Frontend kursi</h1>
@@ -25,12 +25,12 @@ const Page = () => {
              <div>
             <div className="container flex items-center justify-between gap-2">
                 <Image src={'/images/frontend2.png'} className="rounded-xl" alt="Frontend rasmi" width={600} height={600} />
-                <Image src={'/images/frontend-logo.png'} className="rounded-xl hidden lg:flex" alt="Frontend rasmi" width={300} height={300} />
             </div>
             <div className="container flex flex-col gap-2">
                 <h1 className="text-[25px] font-bold">Kerakli darslarni o'qish</h1>
                 <p>Bu kurs davomida siz quydagi mavzularda: Html, Css, Sass, Bootstap, Tailwind css, Ant design, Material ui, Javascript, React.js va Next.js dan xohlagan darsni sotib olishingiz mumkin. Kurs davomiyligi: 1 ta to'liq tushuntirilgan video darslik. Video darslik ko'rib bo'lgandan keyin ustoz bilan suhbat bo'ladi va bunda siz ustozga tushunmagan savolingizga javob topasiz!</p>
                 <Link className="bg-[#7C67FE] w-full h-[40px] text-[16px] font-bold flex items-center justify-center text-white rounded-sm" href={'https://t.me/UzDev_Education'}>Kursni o'qishni boshlash</Link>
+            </div>
             </div>
             </div>
             <div className="mt-9">
